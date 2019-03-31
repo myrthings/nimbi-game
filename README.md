@@ -8,7 +8,7 @@ La dinámica es la misma, pero en lugar de quitar las fichas únicamente por fil
 se puedan quitar tantas fichas como se quiera mientras estas sean contiguas 🤲.
 Una vez más, la hemos decidido programar en un tablero nxn.
 
-Está implementado para jugar contra la máquina pudiendo elegir el tamaño del tablero
+Está implementado para jugar contra la máquina pudiendo elegir el tamaño del tablero.
 
 ### Sobre el código
 A nivel técnico, hemos dividido el juego en 4 módulos:
@@ -20,6 +20,8 @@ A nivel técnico, hemos dividido el juego en 4 módulos:
 Además, el juego incluye una carpeta *Docs* donde se incluyen los documentos txt que precisa: las instrucciones de ambos y los archivos donde se guardan las partidas.
 
 Para inicar el juego hay que cargar este archivo en la terminal `juego.hs` y llamar a la función `menu`.
+
+*No se ha implementado control de errores en cuanto a tipos de datos en el menú*
 
 
 ```
