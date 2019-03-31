@@ -20,3 +20,8 @@ A nivel técnico, hemos dividido el juego en 4 módulos:
 Además, el juego incluye una carpeta *Docs* donde se incluyen los documentos txt que precisa: las instrucciones de ambos y los archivos donde se guardan las partidas.
 
 Para inicar el juego hay que cargar este archivo en la terminal `juego.hs` y llamar a la función `menu`.
+
+
+```
+  Creado por Laura Ruiz y myrthings
+```
