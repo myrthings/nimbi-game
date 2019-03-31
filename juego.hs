@@ -2,32 +2,6 @@ import TABLERO
 import NIM
 import NIMBI
 
-{-
-
-    PRÁCTICA HASKELL - LAURA Y MYRIAM
-
-La práctica consiste en el desarrollo de dos juegos: el Nim y el Nimbi.
-El Nim es un juego antiguo cuyo origen no está muy claro, algunos lo datan en oriente y otros en Europa.
-Es un juego de dos jugadores que consiste en poner varias fichas sobre una superficie y poner unas reglas para ir retirándolas, ganando el que se lleve la última (o perdiendo, según la versión).
-Hay muchas versiones de este juego y nosotras hemos decidido programarlo en un tablero nxn, ganado el que se lleva la última ficha y retirando fichas por filas.
-
-El Nimbi es una extensión del Nim creada por el filósofo Danés Piet Hein después de que el matemático Charles Leornard Bouton hallara una estrategia ganadora.
-La dinámica es la misma, pero en lugar de quitar las fichas únicamente por filas o columnas o montones, lo que se establece es que 
-se puedan quitar tantas fichas como se quiera mientras estas sean contiguas.
-Una vez más, la hemos decidido programar en un tablero nxn.
-
-A nivel técnico, hemos dividido el juego en 4 módulos:
- - El principal (en el que nos encontramos), donde se incluyen los menús que inicializan los juegos y las funciones auxiliares que estos menús necesitan.
- - TABLERO: donde se encuentra la estructura de la tablero y las funciones relacionadas con él que son comunes a los dos juegos
- - NIM: donde se encuentra el desarrollo completo del juego del Nim
- - NIMBI: donde se encuentra el juego completo del Nimbi
-
- Además, el juego incluye una carpeta "Docs" donde se incluyen los documentos txt que precisa el juego: las instrucciones de ambos y los archivos donde se guardan las partidas.
-
-Para inicar el juego hay que cargar este archivo "juego.hs" y llamar a la función "menu".
-
--}
-
 -------------------------------------------- LEER ENTRADA Y COMPROBACIONES DE ENTRADA
 --Estas funciones pasan la entrada a enteros
 leeEntero :: IO Int
@@ -209,9 +183,4 @@ maquinaNimbi tab prof = do putStrLn "Turno de la máquina"
                                         writeFile "Docs/partidasNimbi.txt" escribir
                                 else personaNimbi nuevoTablero prof
         
-
-
-
-
-
-
+        
